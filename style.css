@@ -1104,6 +1104,7 @@ body {
 
 /* Profile Image with Liquid Bubbles */
 .profile-container {
+  margin-top: 120px;
   margin-bottom: var(--space-48);
   display: flex;
   justify-content: center;
@@ -1329,6 +1330,22 @@ section {
   margin-bottom: var(--space-16);
   color: var(--color-primary);
 }
+
+.about-card .card-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* makes content stretch */
+}
+
+.about-card .resume-section {
+  margin-top: auto; /* pushes button to the bottom */
+}
+
+.about-card .card-content p {
+  font-size: 1.3rem;  /* slightly larger than default */
+  line-height: 1.7;   /* for readability */
+}
+
 
 /* Enhanced Resume Button */
 .resume-section {
